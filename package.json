@@ -1,0 +1,15 @@
+{
+  "name": "timtamtum-server",
+  "version": "1.0.0",
+  "description": "Ini adalah source code server dari tim tam tum",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
