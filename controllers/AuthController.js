@@ -5,6 +5,11 @@ class AuthController {
       email: "fachri@mail.com"
     })
   }
-}
 
+  static async login(req, res) {
+    res.json({
+      accessToken: "1234"
+    })
+  }
+}
 module.exports = AuthController
